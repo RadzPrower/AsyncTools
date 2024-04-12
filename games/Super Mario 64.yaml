@@ -47,3 +47,13 @@ Super Mario 64:
       options:
         Super Mario 64:
           progressive_keys: false
+    - option_category: Super Mario 64
+      option_name: enable_move_rando
+      option_result: false
+      options:
+        Super Mario 64:
+          exclude_locations:
+            - "DDD: Pole-Jumping for Red Coins"
+            - "WDW: Go to Town for Red Coins"
+            - "WDW: Quick Race Through Downtown!"
+            - "WDW: 1Up Block in Downtown"
